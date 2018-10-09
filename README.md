@@ -29,7 +29,7 @@ iota_mam_listener:
    sidekey: 'supersecret'
 ```
 
-* host: Hostname of the a running **iota-websocket-proxy**
+* host: Hostname of the **iota-websocket-proxy**
 * port: Port of the proxy
 * secure (optional): true for `wss`, false for `ws`
 * node_path (optional): path to `node`
@@ -69,7 +69,7 @@ notify:
     sidekey: 'notreallysecret'
 ```
 
-* host: Hostname of the a running **IOTA IRI API**
+* host: Hostname of the **IOTA IRI API**
 * port: Port of the IOTA IRI API
 * secure (optional): true for `https`, false for `http`
 * node_path (optional): path to `node`
